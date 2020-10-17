@@ -1,0 +1,264 @@
+html {
+    font-size: 5.33333333vw;
+    background-image: url(redbinding-background.png);
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+  }
+  /* new style */
+  .logo-wrap{
+    text-align: center;
+  }
+  .logo img {
+    /*old style */
+    /* width: 11.5rem;
+    margin-top: 2.4rem;
+    margin-left: 3.95rem;
+    margin-bottom: 2rem; */
+  
+    /* new style */
+    /* margin: auto; */
+    width: 8.5rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2rem; 
+  }
+  .wrap {
+    width: 18.75rem;
+    width: 100%;
+    /* height: 35rem; */
+    /* background-image: url(../img2/new-bindin-background.png); */
+    
+    
+    /* overflow: hidden; */
+  }
+  .topbar {
+    height: 18.25rem;
+    background-image: url(new-banner-background.png);
+    padding: 0 20px;
+    margin: 0.4rem 0.8rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0.75rem 1.2rem 0 0.95rem;
+    margin-bottom: 2.8rem;
+  }
+  .content{
+    margin-top: 1rem;
+  }
+  .input-wrap input {
+    margin-bottom: 1rem;
+  }
+  .msg-input {
+    display: inline-block;
+    position: relative;
+  }
+  .msg-input input{
+      /* padding: 0px ; */
+      /* margin-top: 1rem; */
+  }
+  .icon {
+    position: absolute;
+    width: 0.5rem;
+    top: 14px;
+    bottom: 22px;
+    left:3rem;
+    margin-right: 0.6rem;
+    z-index: 999;
+    vertical-align: middle;
+  }
+  .red-msg {
+    color: #ff6669;
+    font-size: 0.66666667rem;
+    left: 3.7rem;
+  }
+  .frist {
+    position: absolute;
+    top: 39px;
+  }
+  .last {
+    position: absolute;
+    top: 41px;
+  }
+  .second {
+    position: absolute;
+    top: 42px;
+  }
+  .third {
+    position: absolute;
+    top: 48px;
+  }
+  .input-wrap label {
+    font-size: 0.75rem;
+    color: #002526;
+  }
+  .input-wrap label img {
+    margin-left: 0.625rem;
+    width: 0.5rem;
+  }
+  .input-wrap input {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #21B5C1;
+    box-sizing: border-box;
+    /* margin-left: 3.7rem; */
+    margin-left: 2.6rem;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    /* line-height: 40px; */
+    outline: 0;
+    padding: 0 1.5rem;
+    transition: border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 9.95rem;
+    font-size: 0.625rem;
+  }
+  .input-wrap input::placeholder {
+    padding-left: 1.3rem;
+    color: #21B5C1;
+  }
+  .parent {
+    margin-left: 0.75rem;
+  }
+  .yzm {
+    margin-left: 1.5rem;
+  }
+  .last-input {
+    position: relative;
+    margin-bottom: 0.25rem;
+    /* padding: 0px; */
+    /* margin: 0px; */
+    margin-top: -0.4rem;
+    box-sizing:border-box;
+  }
+  .last-input input {
+    width: 5.5rem;
+  }
+  .last-input #btn {
+    width: 4rem;
+    top: -0.3rem;
+    margin-left: 0.3rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+  #btn {
+    margin-top: 0.325rem;
+    font-size: 0.35rem;
+    background-color: #52C2C6;
+    border: 0;
+    font-size: 0.6rem;
+    color: white;
+  }
+  .gitmsg {
+    margin-left: 18% ;
+    margin-top: 2rem;
+  }
+  .footer .checkbox {
+    width: 0.625rem;
+    display: inline-block;
+    margin-top: -1.4rem;
+    margin-bottom: 0;
+  }
+  .footer span {
+    margin-top: -1.25rem;
+    position: absolute;
+    top: 0.45rem;
+    margin-left: 0.25rem;
+    color: #21B5C1;
+  }
+  .cz-btn {
+    background-color: #91B1D1;
+    background-image: none;
+    border-radius: 4px;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    font-size: inherit;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 15px;
+    margin-right: 1.15rem;
+    width: 3.75rem;
+    font-size: 0.75rem;
+    border-radius: 10px;
+    margin-top: -0.5rem;
+  }
+  .confrim-btn {
+    background-color: #21B5C1;
+    background-image: none;
+    border-radius: 4px;
+    border: 0;
+    box-sizing: border-box;
+    margin-left: 9%;
+    color: white;
+    display: inline-block;
+    font-size: 0.6rem;
+    height: 2rem;
+    line-height: 2rem;
+    padding: 0 15px;
+    width: 3.75rem;
+    font-size: 0.75rem;
+    border-radius: 10px;
+    margin-top: -0.5rem;
+  }
+  button value {
+    font-size: 40px;
+  }
+  .confirm-usermsg {
+    width: 14rem;
+    height: 9rem;
+    background-image: url(/confrim-user-msg.png);
+    background-size: 100% 100%;
+    margin: 0 2.5rem;
+  }
+  .student-msg-content {
+    margin: auto;
+    padding-left: 1.25rem;
+    padding-top: 0.15rem;
+    text-align: center;
+  }
+  .topbar-title {
+    text-align: center;
+    line-height: 2rem;
+    margin: 0.275rem 0;
+    font-size: 0.7rem;
+    color: #002526;
+  }
+  .topbar-title h3 {
+    margin-left: -2.3rem;
+    line-height: 2.375rem;
+  }
+  .student {
+    margin-bottom: 0.8rem;
+  }
+  .student-classroom {
+    margin-bottom: 0.5rem;
+  }
+  .student-msg {
+    padding: 0.025rem 0.7rem;
+    color: #3e5758;
+    font-size: 0.7rem;
+  }
+  .altermsg i {
+    padding: 0;
+    font-size: 0.625rem;
+    color: red;
+  }
+  .logo {
+    position: relative;
+  }
+  #returnMsg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 13.75rem;
+    font-size: 0.75rem;
+    text-align: center;
+    color: red;
+  }
+.yzminput input{
+    text-align: left;
+    padding:0px;
+}
+  #styleinput::placeholder{
+      padding: 0px;
+      text-align: center;
+  }
