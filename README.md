@@ -1,2 +1,2 @@
 # newbinding
-oooo
+ooo
