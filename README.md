@@ -1,2 +1,2 @@
 # newbinding
-现在是最
+现在是
