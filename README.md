@@ -1,2 +1,1 @@
 # newbinding
-现
