@@ -1,2 +1,2 @@
 # newbinding
-现在
+现
